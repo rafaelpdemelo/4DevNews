@@ -8,3 +8,15 @@
   gap: 2rem;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    grid-template-columns: 358px 1fr;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .wrapper {
+    grid-template-columns: 449px 1fr;
+  }
+}

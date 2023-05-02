@@ -70,3 +70,15 @@
   background: var(--green-500);
   color: var(--white);
 }
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .sidebar {
+    display: none;
+  }
+}

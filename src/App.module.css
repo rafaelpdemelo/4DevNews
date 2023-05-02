@@ -15,9 +15,9 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
   .wrapper {
-    grid-template-columns: 347px 1fr;
+    grid-template-columns: 362px 1fr;
   }
 }
 

@@ -9,14 +9,30 @@
   align-items: flex-start;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 380px) {
   .wrapper {
-    grid-template-columns: 330px 1fr;
+    grid-template-columns: 362px 1fr;
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 720px) {
+@media screen and (max-width: 380px) {
   .wrapper {
-    grid-template-columns: 428px 1fr;
+    grid-template-columns: 347px 1fr;
   }
 }
+
+@media screen and (min-width: 440px) {
+  .wrapper {
+    grid-template-columns: 410px 1fr;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 720px) {
+  .wrapper {
+    grid-template-columns: 520px 1fr;
+  }
+}
+
+
+
+

@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 480px) and (max-width: 720px) {
   .wrapper {
     grid-template-columns: 449px 1fr;
   }

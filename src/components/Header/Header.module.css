@@ -1,0 +1,17 @@
+.header {
+  background: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+
+.header img {
+  height: 2rem;
+}
+
+h2 {
+  font-family: Poppins;
+  background: linear-gradient( 145deg, white 0%, #40E0D0 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
